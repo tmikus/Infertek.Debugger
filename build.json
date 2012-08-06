@@ -1,0 +1,20 @@
+{
+	"source": "src",
+	"output": "build",
+	"spec": "spec",
+	"ext": "ext",
+	"lint": {},
+	"uglify": {},
+	"gzip": false,
+	"wrap": {
+		"prefix": "(function(window, undefined) {",
+		"suffix": "})(window, undefined);"
+	},
+	"finalize": {
+		"header": "//Infertek.Debugger v0.1.0 | (c) 2012 Tomasz Mikuś | http://www.opensource.org/licenses/mit-license\n"
+	},
+	"hosts": {
+		"/examples": "./examples",
+		"/build": "./build"
+	}
+}
