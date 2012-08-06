@@ -5,6 +5,6 @@ var namespaceObject = {
     }
 };
 
-window.Infertek.Debugger.registerForDebugging(namespaceObject, "namespaceObject");
+window.Infertek.Debugger.registerForDebugging("namespaceObject");
 
 namespaceObject.FunctionToDebug();

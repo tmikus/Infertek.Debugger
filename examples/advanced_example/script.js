@@ -6,10 +6,13 @@ var namespaceObject = {
         this.Function3();
     },
     Function3: function () {
-        n;
+        var prywatnaFunkcja = function() {
+            n;  
+        };
+        prywatnaFunkcja();
     }
 };
 
-window.Infertek.Debugger.registerForDebugging(namespaceObject, "namespaceObject");
+window.Infertek.Debugger.registerForDebugging("namespaceObject");
 
 namespaceObject.Function1();
